@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "description": "This is a repository to practice DSA Binary Trees topic in Javascript language",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "p1_binary_tree_from_array_level_order": "nodemon ./easy/p1_binary_tree_from_array_level_order.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "treeify": "^1.1.0"
+  },
+  "devDependencies": {
+    "console-log-pattern": "^1.0.2"
   }
 }
