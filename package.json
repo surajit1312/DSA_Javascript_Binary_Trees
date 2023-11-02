@@ -1,0 +1,13 @@
+{
+  "name": "dsa_javascript_binary_trees",
+  "version": "1.0.0",
+  "description": "This is a repository to practice DSA Binary Trees topic in Javascript language",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
