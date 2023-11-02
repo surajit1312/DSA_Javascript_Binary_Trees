@@ -4,7 +4,12 @@
   "description": "This is a repository to practice DSA Binary Trees topic in Javascript language",
   "main": "index.js",
   "scripts": {
-    "p1_binary_tree_from_array_level_order": "nodemon ./easy/p1_binary_tree_from_array_level_order.js"
+    "p1_binary_tree_from_array_level_order": "nodemon ./easy/p1_binary_tree_from_array_level_order.js",
+    "p2_binary_tree_inorder_traversal": "nodemon ./easy/p2_binary_tree_inorder_traversal.js",
+    "p3_binary_tree_preorder_traversal": "nodemon ./easy/p3_binary_tree_preorder_traversal.js",
+    "p4_binary_tree_postorder_traversal": "nodemon ./easy/p4_binary_tree_postorder_traversal.js",
+    "p5_binary_tree_levelorder_traversal": "nodemon ./medium/p5_binary_tree_levelorder_traversal.js",
+    "p6_binary_tree_zigzag_levelorder_traversal": "nodemon ./medium/p6_binary_tree_zigzag_levelorder_traversal.js"
   },
   "keywords": [],
   "author": "",
