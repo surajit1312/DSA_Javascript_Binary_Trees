@@ -9,7 +9,11 @@
     "p3_binary_tree_preorder_traversal": "nodemon ./easy/p3_binary_tree_preorder_traversal.js",
     "p4_binary_tree_postorder_traversal": "nodemon ./easy/p4_binary_tree_postorder_traversal.js",
     "p5_binary_tree_levelorder_traversal": "nodemon ./medium/p5_binary_tree_levelorder_traversal.js",
-    "p6_binary_tree_zigzag_levelorder_traversal": "nodemon ./medium/p6_binary_tree_zigzag_levelorder_traversal.js"
+    "p6_binary_tree_zigzag_levelorder_traversal": "nodemon ./medium/p6_binary_tree_zigzag_levelorder_traversal.js",
+    "p7_maximum_depth_or_height_binary_tree": "nodemon ./easy/p7_maximum_depth_or_height_binary_tree.js",
+    "p8_minimum_depth_binary_tree": "nodemon ./easy/p8_minimum_depth_binary_tree.js",
+    "p9_validate_if_identical_binary_trees": "nodemon ./easy/p9_validate_if_identical_binary_trees.js",
+    "p10_max_path_sum_binary_tree": "nodemon ./hard/p10_max_path_sum_binary_tree.js"
   },
   "keywords": [],
   "author": "",
