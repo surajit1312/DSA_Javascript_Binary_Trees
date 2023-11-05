@@ -5,7 +5,7 @@ consoleUtils.logTitle("Coding Ninjas: Top View Of Binary Tree", "◉", "yellow")
 consoleUtils.logExeBlock(
   `Link: https://www.codingninjas.com/studio/problems/top-view-of-binary-tree_799401`,
   true,
-  "magenta"
+  "magenta",
 );
 
 consoleUtils.logExeBlock(`Input:`, true, "magenta");
@@ -21,7 +21,7 @@ consoleUtils.logNote(
   false,
   "",
   "",
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "magenta");
 
@@ -90,9 +90,9 @@ const getTopViewBT = function (root, result) {
 consoleUtils.logExeBlock("Top View of Binary Tree", true, "green");
 consoleUtils.logConsole(
   `Top View of Binary Tree: ${JSON.stringify(input)} is : ${JSON.stringify(
-    topViewBinaryTree(treeOutput)
+    topViewBinaryTree(treeOutput),
   )}`,
   false,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "green");

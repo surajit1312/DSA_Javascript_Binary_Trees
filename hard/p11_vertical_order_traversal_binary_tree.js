@@ -4,17 +4,17 @@ const treeify = require("treeify");
 consoleUtils.logTitle(
   "Leetcode 987. Vertical Order Traversal of a Binary Tree",
   "◉",
-  "red"
+  "red",
 );
 consoleUtils.logExeBlock(
   `Link: https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/`,
   true,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock(
   `Link: https://www.codingninjas.com/studio/problems/vertical-order-traversal_3622711`,
   true,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock(`Input:`, true, "magenta");
 
@@ -29,7 +29,7 @@ consoleUtils.logNote(
   false,
   "",
   "",
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "magenta");
 
@@ -120,13 +120,13 @@ const verticalTraversalData = verticalTraversal(treeOutput);
 consoleUtils.logExeBlock(
   "Vertical Order Traversal of Binary Tree",
   true,
-  "green"
+  "green",
 );
 consoleUtils.logConsole(
   `Vertical Order Traversal of Binary Tree: ${JSON.stringify(
-    input
+    input,
   )} is : ${JSON.stringify(verticalTraversalData)}`,
   false,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "green");

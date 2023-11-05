@@ -5,12 +5,12 @@ consoleUtils.logTitle("Leetcode 124. Binary Tree Maximum Path Sum", "◉", "red"
 consoleUtils.logExeBlock(
   `Link: https://leetcode.com/problems/binary-tree-maximum-path-sum/`,
   true,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock(
   `Link: https://www.codingninjas.com/studio/problems/maximum-sum-path-of-a-binary-tree._1214968`,
   true,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock(`Input:`, true, "magenta");
 
@@ -25,7 +25,7 @@ consoleUtils.logNote(
   false,
   "",
   "",
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "magenta");
 
@@ -86,6 +86,6 @@ consoleUtils.logExeBlock("Binary Tree Maximum Path Sum", true, "green");
 consoleUtils.logConsole(
   `Binary Tree Maximum Path Sum of ${JSON.stringify(input)} is : ${maxSum}`,
   false,
-  "green"
+  "green",
 );
 consoleUtils.logExeBlock("", true, "green");

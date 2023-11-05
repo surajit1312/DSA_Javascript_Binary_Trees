@@ -4,12 +4,12 @@ const treeify = require("treeify");
 consoleUtils.logTitle(
   "Leetcode 94. Binary Tree Inorder Traversal",
   "◉",
-  "yellow"
+  "yellow",
 );
 consoleUtils.logExeBlock(
   `Link: https://leetcode.com/problems/binary-tree-inorder-traversal/`,
   true,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock(`Input:`, true, "magenta");
 
@@ -27,7 +27,7 @@ consoleUtils.logNote(
   false,
   "",
   "",
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "magenta");
 

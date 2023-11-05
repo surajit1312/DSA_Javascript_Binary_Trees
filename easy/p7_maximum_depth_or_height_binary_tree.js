@@ -4,12 +4,12 @@ const treeify = require("treeify");
 consoleUtils.logTitle(
   "Leetcode 104. Maximum Depth of Binary Tree",
   "◉",
-  "green"
+  "green",
 );
 consoleUtils.logExeBlock(
   `Link: https://leetcode.com/problems/maximum-depth-of-binary-tree/`,
   true,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock(`Input:`, true, "magenta");
 
@@ -24,7 +24,7 @@ consoleUtils.logNote(
   false,
   "",
   "",
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "magenta");
 
@@ -72,9 +72,9 @@ const heightOfTree = maxDepth(treeOutput);
 consoleUtils.logExeBlock("Height/Maximum Depth of Binary Tree", true, "green");
 consoleUtils.logConsole(
   `Height/Maximum Depth of Binary Tree ${JSON.stringify(
-    input
+    input,
   )} is : ${heightOfTree}`,
   false,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "green");

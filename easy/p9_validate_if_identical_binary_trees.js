@@ -5,12 +5,12 @@ consoleUtils.logTitle("Leetcode 100. Same Tree", "◉", "green");
 consoleUtils.logExeBlock(
   `Link: https://leetcode.com/problems/same-tree/`,
   true,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock(
   `Link: https://www.codingninjas.com/studio/problems/check-identical-trees_799364`,
   true,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock(`Input:`, true, "magenta");
 
@@ -25,7 +25,7 @@ consoleUtils.logNote(
   false,
   "",
   "",
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "magenta");
 
@@ -81,10 +81,10 @@ const identical1 = isSameTree(treeOutput1, treeOutput2);
 consoleUtils.logExeBlock("Are Binary Trees Identical", true, "green");
 consoleUtils.logConsole(
   `Are Binary Trees Identical ${JSON.stringify(input1)} and ${JSON.stringify(
-    input1
+    input1,
   )} identical : ${identical1}`,
   false,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "green");
 
@@ -101,9 +101,9 @@ const identical2 = isSameTree(treeOutput3, treeOutput4);
 consoleUtils.logExeBlock("Are Binary Trees Identical", true, "green");
 consoleUtils.logConsole(
   `Are Binary Trees Identical ${JSON.stringify(input1)} and ${JSON.stringify(
-    input2
+    input2,
   )} identical : ${identical2}`,
   false,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "green");

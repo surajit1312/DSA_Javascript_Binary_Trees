@@ -4,17 +4,17 @@ const treeify = require("treeify");
 consoleUtils.logTitle(
   "Binary Trees - Convert Array to Binary Tree - Level Order Traversal",
   "◉",
-  "yellow"
+  "yellow",
 );
 consoleUtils.logExeBlock(
   `Input: [4, 6, 1, -9, 7, 8, 12, 45, -10]`,
   true,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock(
   `Link: https://www.codingninjas.com/studio/problems/create-binary-tree_8360671`,
   true,
-  "magenta"
+  "magenta",
 );
 
 consoleUtils.logNote(
@@ -31,7 +31,7 @@ consoleUtils.logNote(
   false,
   "",
   "",
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "magenta");
 

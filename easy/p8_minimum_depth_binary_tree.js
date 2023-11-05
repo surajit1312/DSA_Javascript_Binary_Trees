@@ -4,12 +4,12 @@ const treeify = require("treeify");
 consoleUtils.logTitle(
   "Leetcode 111. Minimum Depth of Binary Tree",
   "◉",
-  "green"
+  "green",
 );
 consoleUtils.logExeBlock(
   `Link: https://leetcode.com/problems/minimum-depth-of-binary-tree/`,
   true,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock(`Input:`, true, "magenta");
 
@@ -24,7 +24,7 @@ consoleUtils.logNote(
   false,
   "",
   "",
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "magenta");
 
@@ -88,10 +88,10 @@ const minDepthTree1 = minDepth(treeOutput1);
 consoleUtils.logExeBlock("Minimum Depth of Binary Tree", true, "green");
 consoleUtils.logConsole(
   `Minimum Depth of Binary Tree ${JSON.stringify(
-    input1
+    input1,
   )} is : ${minDepthTree1}`,
   false,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "green");
 
@@ -104,9 +104,9 @@ const minDepthTree2 = minDepth(treeOutput2);
 consoleUtils.logExeBlock("Minimum Depth of Binary Tree", true, "green");
 consoleUtils.logConsole(
   `Minimum Depth of Binary Tree ${JSON.stringify(
-    input2
+    input2,
   )} is : ${minDepthTree2}`,
   false,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "green");

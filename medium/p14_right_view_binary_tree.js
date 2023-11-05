@@ -4,12 +4,12 @@ const treeify = require("treeify");
 consoleUtils.logTitle(
   "Leetcode 199. Binary Tree Right Side View",
   "◉",
-  "yellow"
+  "yellow",
 );
 consoleUtils.logExeBlock(
   `Link: https://leetcode.com/problems/binary-tree-right-side-view/`,
   true,
-  "magenta"
+  "magenta",
 );
 
 consoleUtils.logExeBlock(`Input:`, true, "magenta");
@@ -28,7 +28,7 @@ consoleUtils.logNote(
   false,
   "",
   "",
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "magenta");
 
@@ -90,9 +90,9 @@ const getRightViewBT = function (root, level, result) {
 consoleUtils.logExeBlock("Right Side View of Binary Tree", true, "green");
 consoleUtils.logConsole(
   `Right Side View of Binary Tree: ${JSON.stringify(
-    input
+    input,
   )} is : ${JSON.stringify(rightSideView(treeOutput))}`,
   false,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "green");

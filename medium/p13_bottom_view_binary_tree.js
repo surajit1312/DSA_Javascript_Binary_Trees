@@ -4,12 +4,12 @@ const treeify = require("treeify");
 consoleUtils.logTitle(
   "Coding Ninjas: Bottom View Of Binary Tree",
   "◉",
-  "yellow"
+  "yellow",
 );
 consoleUtils.logExeBlock(
   `Link: https://www.codingninjas.com/studio/problems/bottom-view-of-binary-tree_893110`,
   true,
-  "magenta"
+  "magenta",
 );
 
 consoleUtils.logExeBlock(`Input:`, true, "magenta");
@@ -25,7 +25,7 @@ consoleUtils.logNote(
   false,
   "",
   "",
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "magenta");
 
@@ -96,9 +96,9 @@ const getTopViewBT = function (root, result) {
 consoleUtils.logExeBlock("Bottom View of Binary Tree", true, "green");
 consoleUtils.logConsole(
   `Bottom View of Binary Tree: ${JSON.stringify(input)} is : ${JSON.stringify(
-    topViewBinaryTree(treeOutput)
+    topViewBinaryTree(treeOutput),
   )}`,
   false,
-  "magenta"
+  "magenta",
 );
 consoleUtils.logExeBlock("", true, "green");
